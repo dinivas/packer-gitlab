@@ -1,0 +1,6 @@
+---
+- name: Provision Image Dinivas Gitlab to build
+  hosts: packer-gitlab
+  become: true
+  roles:
+    - role: dinivas.gitlab
